@@ -1,0 +1,30 @@
+.header {
+  background-color: floralwhite;
+  height: 7.875rem;
+  width: 100%;
+  align-items: center;
+}
+
+.menu {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #6d40ff;
+  margin-left: 15rem;
+}
+
+.bottom-line {
+  border: 4px solid #6d40ff;
+  border-radius: 1.5rem;
+  margin-left: 0.5rem;
+  width: 3.438rem;
+}
+
+.functionality {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #000000;
+}
