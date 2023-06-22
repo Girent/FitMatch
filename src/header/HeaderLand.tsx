@@ -5,14 +5,14 @@ import { TextHead } from './TextHead'
 
 export const HeaderLand = () => {
   return (
-    <div className="header grid grid-cols-4">
-      <TextHead />
-      <div className="menu">
+    <div className="header grid grid-cols-3 h-32">
+        <div><TextHead /></div>
+      <div className="menu text-3xl grid-cols-2">
         Main
-        <hr className="bottom-line" />
+        <hr className="bottom-line w-11 h-px" />
+      <div className="functionality text-3xl">Functionality</div>
       </div>
-      <div className="functionality">Functionality</div>
-      <ButtonLand />
+      <div> <ButtonLand /></div>
     </div>
   )
 }
